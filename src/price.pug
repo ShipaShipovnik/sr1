@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Цены и сроки
+        link(rel="stylesheet", href="styles/style.css")
+    body
+        include modules/header
+        section.table
+            .wrapper
+                h1 Сроки исполнения заказа
+                table 
+                    tr
+                        th Технология 3д печати
+                        th Стоимость
+                        th Срок выполнения заказа
+                    tr 
+                        td FDM
+                        td 8P/см
+                        td(rowspan='2') 1-2 рабочих дня
+                    tr 
+                        td FDM
+                        td 8P/см
+                    tr 
+                        td FDM
+                        td 8P/см
+                        td 1-2 рабочих дня
+                    tr 
+                        td FDM
+                        td(rowspan='2') 8P/см
+                        td 1-2 рабочих дня
+                    tr 
+                        td FDM
+                        td 1-2 рабочих дня
+        include modules/footer 

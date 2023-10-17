@@ -1,0 +1,66 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Производство
+        link(rel="stylesheet", href="styles/style.css")
+    body
+        include modules/header
+        .banner 
+        section.table
+            .wrapper
+                h1 Сроки исполнения заказа
+                table 
+                    tr
+                        th Технология 3д печати
+                        th Стоимость
+                        th Срок выполнения заказа
+                    tr 
+                        td FDM
+                        td 8P/см
+                        td(rowspan='2') 1-2 рабочих дня
+                    tr 
+                        td FDM
+                        td 8P/см
+                    tr 
+                        td FDM
+                        td 8P/см
+                        td 1-2 рабочих дня
+                    tr 
+                        td FDM
+                        td(rowspan='2') 8P/см
+                        td 1-2 рабочих дня
+                    tr 
+                        td FDM
+                        td 1-2 рабочих дня
+        section.samples
+            .wrapper
+                h1 Примеры печати
+                .sample-line
+                    .sample 
+                        .sample-img(style="background-image:url(../src/images/1.png)")
+                        input(type="button", value="Смотреть подробнее")
+                    .sample 
+                        .sample-img(style="background-image:url(../src/images/2.png)")
+                        input(type="button", value="Смотреть подробнее")
+                    .sample 
+                        .sample-img(style="background-image:url(../src/images/3.png)")
+                        input(type="button", value="Смотреть подробнее")
+        section.what
+            .wrapper 
+                    h1 Что можно напечать на 3д принтере?
+                    p Во многом возможности 3Д печати будут определяться технологией. Некоторые даже позволяют печатить уже собранные механизмы с двигающимися деталями. В целом же 3Д нечать используется очень широко и изделия могут быть самыми разнообразными:
+                    ul 
+                        li игрушки
+                        li игрушки
+                        li игрушки
+                        li игрушки
+                        li игрушки
+                        li игрушки
+                        li игрушки
+                        li игрушки
+                        li игрушки
+                        li игрушки
+                        li игрушки
+                    p Многие используют 3Д печать для открытия малого бизнеса, то есть осуществляют 3Д печать под заказ. Это отличная возможность. Однако есть и более интересные стартаны - создание уникальных украшений, печать статуэток на основании фотографий и данных 3Д сканирования, печать уникальных чехлов для мобильных телефонов.
+        include modules/footer 

@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Примеры
+        link(rel="stylesheet", href="styles/style.css")
+    body
+        include modules/header
+        section.samples
+            .wrapper
+                h1 Примеры печати
+                .sample-line
+                    .sample 
+                        .sample-img(style="background-image:url(../src/images/1.png)")
+                        input(type="button", value="Смотреть подробнее")
+                    .sample 
+                        .sample-img(style="background-image:url(../src/images/2.png)")
+                        input(type="button", value="Смотреть подробнее")
+                    .sample 
+                        .sample-img(style="background-image:url(../src/images/3.png)")
+                        input(type="button", value="Смотреть подробнее")
+        include modules/footer 

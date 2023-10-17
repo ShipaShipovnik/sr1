@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14pt;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1080px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20pt;
+}
+
+header {
+  height: 70px;
+  text-align: center;
+  padding-top: 20px;
+}
+header .main-menu ul li {
+  margin-left: 30px;
+  display: inline-block;
+  list-style-type: none;
+}
+header .main-menu ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(125, 125, 125);
+}
+
+.banner {
+  background-image: url(../images/banner.png);
+  background-color: grey;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.table {
+  margin-top: 50px;
+}
+.table h1 {
+  margin-bottom: 20px;
+}
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table table th, .table table td {
+  padding: 3px;
+  border: 1px black solid;
+}
+
+.samples {
+  margin-top: 90px;
+}
+.samples .sample-line {
+  width: 100%;
+  margin-top: 50px;
+}
+.samples .sample-line .sample {
+  text-align: center;
+  margin: 0 5px;
+  display: inline-block;
+}
+.samples .sample-line .sample .sample-img {
+  width: 340px;
+  height: 330px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.samples .sample-line .sample input[type=button] {
+  width: 100%;
+  padding: 8px 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.what {
+  margin-top: 90px;
+}
+.what h1 {
+  margin-bottom: 20px;
+}
+.what ul {
+  margin-left: 50px;
+}
+.what p {
+  margin: 10px 0;
+}
+
+footer {
+  margin-top: 50px;
+  height: 100px;
+  background-color: rgb(190, 190, 190);
+  text-align: center;
+  padding-top: 40px;
+}/*# sourceMappingURL=style.css.map */
